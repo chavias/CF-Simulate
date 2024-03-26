@@ -22,18 +22,38 @@ git clone https://github.com/yourusername/CF-simulate.git
 
 1. Effective Hamiltonian Simulation for a specific system:
 
+edit To change the duration of the Hamiltonian or start individual simulations modify the 
+
 ```bash
-    # Execute the exact simulation script after navigating to the corresponding directory
-    ./Run_effective.sh
+# Navigate to the corresponding directory
+cd path/to/directory
+
+# Edit the Run_effective.sh script
+nano Run_effective.sh
+
+# Execute the script
+./Run_effective.sh
 ```
-This command will execute the effective Hamiltonian simulation module.
+
+This command will execute the effective Hamiltonian simulation up to the second order.
+
 
 2. Numerical Simulation for a specific system:
 
 ```bash
-    # Execute the exact simulation script after navigating to the corresponding directory
-    ./Run_exact.sh
+# Navigate to the corresponding directory
+cd path/to/directory
+
+# Edit the run_sim_time.py script
+nano run_sim_time.py
+
+# Edit the gamma_time.csh script
+nano gamma_time.py
+
+# Execute the script
+./Run_exact.sh
 ```
+
 Execute this command to perform numerical simulations up to second-order accuracy.
 
 <!--Documentation
