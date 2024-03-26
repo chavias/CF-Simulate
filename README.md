@@ -53,12 +53,13 @@ git clone https://github.com/yourusername/CF-simulate.git
 
 - Compile OPTIM_externshap_time.cc using [GAMMA](https://github.com/tesch1/GAMMA)
 
-    ```bash
-    gamma OPTIM_externshap_time.cc -o OPTIM_externshap_time
-    ```
+  ```bash
+  gamma OPTIM_externshap_time.cc -o OPTIM_externshap_time
+  ```
       
   This script simulates multispin systems under arbitrary rf irradiation and magic angle spinning.
-  The rf irradiation parameters are specified in a seperated file and set within the run_sim_time.py.
+  The specification of the spin system has to be provided with a .sys file.
+  The rf irradiation is specified in a .dat file and set within the run_sim_time.py.
       
 - Edit the run_sim_time.py script
 
