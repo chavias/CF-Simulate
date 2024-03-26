@@ -1,14 +1,12 @@
 # CF Simulate
 
-CF Simulate is a repository designed for simulating effective Hamiltonians and performing numerical simulations up to second order. It provides a comprehensive toolkit for researchers and practitioners in the field of computational physics and quantum mechanics.
+CF Simulate is a curated collection of examples showcasing the application of Continuous Floquet theory up to second order for effective Hamiltonian simulations, alongside exact simulations for comparative analysis, as described in the publication by Chavez et al.
 
 ## Features
 
-- **Effective Hamiltonian Simulation**: Simulate effective Hamiltonians for various systems.
-- **Numerical Simulation**: Perform numerical simulations up to second order accuracy.
-- **Versatile Toolkit**: Provides a range of tools and functions for advanced calculations.
-- **Customizable Parameters**: Easily customize simulation parameters to suit specific needs.
-- **Detailed Documentation**: Comprehensive documentation to guide users through the functionalities.
+- **Effective Hamiltonian Simulation**: Simulation of effective Hamiltonians up to second order for various systems.
+- **Numerical Simulation**: Perform numerical simulations for various systems.
+- **Versatile Toolkit**: Provides a range of tools and functions for similar exact and effective calculations.
 
 ## Installation
 
@@ -17,20 +15,21 @@ To install CF Simulate, simply clone the repository:
 ```bash
 git clone https://github.com/yourusername/CF-simulate.git
 ```
+*Note*: This code is designed to be used with SLURM Workload Manager.
 
 ## Usage
 
 1. Effective Hamiltonian Simulation:
 
 ```bash
-    python
+    ./Run_effective.sh
 ```
 This command will execute the effective Hamiltonian simulation module.
 
 2. Numerical Simulation:
 
 ```bash
-    python numerical_simulation.py
+    ./Run_exact.sh
 ```
 Execute this command to perform numerical simulations up to second-order accuracy.
 
@@ -39,9 +38,7 @@ For detailed instructions and documentation on how to use CF Simulate, please re
 
 <!--
 ## Contribution
-
 Contributions are welcome! If you'd like to contribute to CF Simulate, please follow these steps:
-
     Fork the repository
     Create your feature branch (git checkout -b feature/YourFeature)
     Commit your changes (git commit -am 'Add some feature')
