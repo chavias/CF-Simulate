@@ -23,10 +23,10 @@ git clone https://github.com/yourusername/CF-simulate.git
 1. Effective Hamiltonian Simulation for a specific system:
 
     - Navigate to the corresponding directory:
-
-    ```bash
-    cd path/to/directory
-    ```
+      
+        ```bash
+        cd path/to/directory
+        ```
     
     (e.g C7/effective-simulation/) and edit the Run_effective.sh script to set the simulation parameter and output directory.
 
