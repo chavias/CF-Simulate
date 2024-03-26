@@ -20,7 +20,7 @@ git clone https://github.com/yourusername/CF-simulate.git
 
 ## Usage
 
-### Effective Hamiltonian Simulation for a specific system:
+### Effective Hamiltonian Simulation:
 
 - Navigate to the corresponding directory:
       
@@ -43,7 +43,7 @@ git clone https://github.com/yourusername/CF-simulate.git
   ```
 
 
-### Numerical Simulation for a specific system:
+### Exact Simulation:
 
 - Navigate to the corresponding directory:
       
