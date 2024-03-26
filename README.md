@@ -20,66 +20,67 @@ git clone https://github.com/yourusername/CF-simulate.git
 
 ## Usage
 
-1. Effective Hamiltonian Simulation for a specific system:
+### Effective Hamiltonian Simulation for a specific system:
 
-    - Navigate to the corresponding directory:
+- Navigate to the corresponding directory:
       
-      ```bash
-      cd path/to/directory
-      ```
-    - Edit the Run_effective.sh script
+  ```bash
+  cd path/to/directory
+  ```
+  
+- Edit the Run_effective.sh script
 
-      ```bash
-      nano Run_effective.sh 
-      ```
+  ```bash
+  nano Run_effective.sh 
+  ```
       
-      In this script, you can specify the simulation parameters and output directory as needed.
+  In this script, you can specify the simulation parameters and output directory as needed.
 
-    - Execute the Run_effective.sh script
+- Execute the Run_effective.sh script
       
+  ```bash
+  ./Run_effective.sh
+  ```
+
+
+### Numerical Simulation for a specific system:
+
+- Navigate to the corresponding directory:
+      
+  ```bash
+  cd path/to/directory
+  ```
+
+- Compile OPTIM_externshap_time.cc using [GAMMA](https://github.com/tesch1/GAMMA)
+
     ```bash
-    ./Run_effective.sh
+    gamma OPTIM_externshap_time.cc -o OPTIM_externshap_time
     ```
-
-
-2. Numerical Simulation for a specific system:
-
-    - Navigate to the corresponding directory:
       
-      ```bash
-      cd path/to/directory
-      ```
-
-    - Compile OPTIM_externshap_time.cc using [GAMMA](https://github.com/tesch1/GAMMA)
-
-      ```bash
-      gamma OPTIM_externshap_time.cc -o OPTIM_externshap_time
-      ```
+  This script simulates multispin systems under arbitrary rf irradiation and magic angle spinning.
+  The rf irradiation parameters are specified in a seperated file and set within the run_sim_time.py.
       
-      This script simulates multispin systems under arbitrary rf irradiation and magic angle spinning
-      The rf irradiation parameters are specified in a seperated file and set within the run_sim_time.py
-      
-    - Edit the run_sim_time.py script
+- Edit the run_sim_time.py script
 
-      ```bash
-      nano run_sim_time.py 
-      ```
+  ```bash
+  nano run_sim_time.py 
+  ```
       
-      In this script, you can specify the various simulation parameters.
+  In this script, you can specify the various simulation parameters.
 
-   - Edit the gamma_time.csh script
+- Edit the gamma_time.csh script
 
-      ```bash
-      nano gamma_time.csh 
-      ```
+  ```bash
+  nano gamma_time.csh 
+  ```
       
-      In this script, you can specify the output directory and simulation parameters.
+  In this script, you can specify the output directory and simulation parameters.
 
-    - Execute the Run_effective.sh script
+- Execute the Run_effective.sh script
       
-      ```bash
-      ./Run_effective.sh
-      ```
+  ```bash
+  ./Run_effective.sh
+  ```
 
 <!--Documentation
 For detailed instructions and documentation on how to use CF Simulate, please refer to the Documentation file.-->
