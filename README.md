@@ -15,20 +15,23 @@ To install CF Simulate, simply clone the repository:
 ```bash
 git clone https://github.com/yourusername/CF-simulate.git
 ```
+
 *Note*: This code is designed to be used with SLURM Workload Manager.
 
 ## Usage
 
-1. Effective Hamiltonian Simulation:
+1. Effective Hamiltonian Simulation for a specific system:
 
 ```bash
+    # Execute the exact simulation script after navigating to the corresponding directory
     ./Run_effective.sh
 ```
 This command will execute the effective Hamiltonian simulation module.
 
-2. Numerical Simulation:
+2. Numerical Simulation for a specific system:
 
 ```bash
+    # Execute the exact simulation script after navigating to the corresponding directory
     ./Run_exact.sh
 ```
 Execute this command to perform numerical simulations up to second-order accuracy.
