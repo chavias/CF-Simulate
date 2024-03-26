@@ -22,38 +22,43 @@ git clone https://github.com/yourusername/CF-simulate.git
 
 1. Effective Hamiltonian Simulation for a specific system:
 
-To run the effective Hamiltonian simulation first navigate to the corresponding directory
-(e.g C7/effective-simulation/) and edit the Run_effective.sh script to set the simulation parameter and output directory.
+    - Navigate to the corresponding directory:
 
-```bash
-# Navigate to the corresponding directory
-cd path/to/directory
+    ```bash
+    cd path/to/directory
+    ```
+    
+    (e.g C7/effective-simulation/) and edit the Run_effective.sh script to set the simulation parameter and output directory.
 
-# Edit the Run_effective.sh script
-nano Run_effective.sh
+    ```bash
+    # Navigate to the corresponding directory
+    cd path/to/directory
 
-# Execute the script
-./Run_effective.sh
-```
+    # Edit the Run_effective.sh script
+    nano Run_effective.sh
+
+    # Execute the script
+    ./Run_effective.sh
+    ```
 
 
-2. Numerical Simulation for a specific system:
+3. Numerical Simulation for a specific system:
 
-```bash
-# Navigate to the corresponding directory
-cd path/to/directory
+    ```bash
+    # Navigate to the corresponding directory
+    cd path/to/directory
+    
+    # Edit the run_sim_time.py script
+    nano run_sim_time.py
+    
+    # Edit the gamma_time.csh script
+    nano gamma_time.csh
+    
+    # Execute the script
+    ./Run_exact.sh
+    ```
 
-# Edit the run_sim_time.py script
-nano run_sim_time.py
-
-# Edit the gamma_time.csh script
-nano gamma_time.csh
-
-# Execute the script
-./Run_exact.sh
-```
-
-Execute this commands to perform numerical simulations up to second-order accuracy.
+    Execute this commands to perform numerical simulations up to second-order accuracy.
 
 <!--Documentation
 For detailed instructions and documentation on how to use CF Simulate, please refer to the Documentation file.-->
