@@ -1,6 +1,5 @@
 /*
 
-
 simulates phase transients
 Can run up to 10 spins without the CSA tensors. 
 Brute force integration of the MAS rotation (one cycle)
@@ -11,11 +10,11 @@ cosine modulated amplitude transient
 #include "gamma.h"
 #include <sys/time.h>
 #include <sys/resource.h>
-#include <unistd.h>      //added
+#include <unistd.h>
 #define NPROP 800000
 #define MAXSPINS 10
 
-//extern "C" int gethostname(char *,int);      // commeted out
+//extern "C" int gethostname(char *,int);
 
 using namespace std;
 
