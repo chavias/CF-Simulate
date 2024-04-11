@@ -1,6 +1,6 @@
 # CF Simulate
 
-CF Simulate is a curated collection of examples showcasing the application of Continuous Floquet theory up to second order for effective Hamiltonian simulations, alongside exact simulations for comparative analysis
+CF Simulate is a curated collection of examples showcasing the application of continuous Floquet theory up to second order for effective Hamiltonian simulations, alongside exact simulations for comparative analysis
 <!--, as described in the publication by Chavez et al.-->
 
 ## Features
