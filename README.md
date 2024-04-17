@@ -1,7 +1,6 @@
 # CF Simulate
 
-CF Simulate is a curated collection of examples showcasing the application of continuous Floquet theory up to second order for effective Hamiltonian simulations, alongside exact simulations for comparative analysis
-<!--, as described in the publication by Chavez et al.-->
+CF Simulate is a curated collection of examples showcasing the application of continuous Floquet theory up to second order for effective Hamiltonian simulations, alongside exact simulations for comparative analysis, as described in the publication [^1].
 
 ## Features
 
@@ -102,3 +101,5 @@ This project is licensed under the MIT License.
 
 <!-- ## Contact
 For any inquiries or suggestions, please feel free to reach out to Your Name.
+
+[^1] : [Chávez, M., Ernst, M. (2024). Continuous Floquet theory in solid-state NMR][https://arxiv.org/abs/2404.06300]
