@@ -102,4 +102,4 @@ This project is licensed under the MIT License.
 <!-- ## Contact
 For any inquiries or suggestions, please feel free to reach out to Your Name.
 
-[^1] : [Chávez, M., Ernst, M. (2024). Continuous Floquet theory in solid-state NMR][https://arxiv.org/abs/2404.06300]
+[^1]: [Chávez, M., Ernst, M. (2024). Continuous Floquet theory in solid-state NMR](https://arxiv.org/abs/2404.06300)
